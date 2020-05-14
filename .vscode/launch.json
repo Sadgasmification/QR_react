@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [{
+        "type": "chrome",
+        "request": "launch",
+        "name": "Chrome",
+        "url": "http://localhost:3000",
+        "webRoot": "${workspaceFolder}"
+    },
+{
+    "type": "firefox",
+    "request": "launch",
+    "name": "Firefox",
+    "reAttach": true,
+    "url": "http://localhost:3000",
+    "webRoot": "${workspaceFolder}"
+}]
+}

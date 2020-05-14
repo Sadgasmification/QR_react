@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.qrForm {
+  min-width: 50vw;
+}
+
+section.input {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+section.input input,
+section.input select,
+section.input button {
+  margin-top: 1rem;
+  padding: .3rem .5rem;
+}
